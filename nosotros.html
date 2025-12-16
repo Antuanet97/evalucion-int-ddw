@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Conoce más sobre Cute Pets, nuestra misión, visión y el equipo que hace posible los mejores productos para mascotas.">
+    <title>Nosotros - Cute Pets | Sobre Nuestra Tienda</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-offset="100">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-cute sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-white.png" alt="Cute Pets Logo" style="height: 40px;">
+                Cute Pets
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house-fill me-1"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">
+                            <i class="bi bi-people-fill me-1"></i>Nosotros
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">
+                            <i class="bi bi-shop me-1"></i>Tienda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            <i class="bi bi-envelope-fill me-1"></i>Contacto
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            <i class="bi bi-journal-text me-1"></i>Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">
+                            <i class="bi bi-newspaper me-1"></i>Noticias
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="bg-purple-gradient text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 mb-3" style="color: white;">Sobre Cute Pets</h1>
+                    <p class="lead">Somos más que una tienda, somos una familia que ama a las mascotas tanto como tú.
+                    </p>
+                    <div class="mt-4">
+                        <i class="bi bi-heart-fill fs-1 mx-2"></i>
+                        <i class="bi bi-star-fill fs-1 mx-2"></i>
+                        <i class="bi bi-award-fill fs-1 mx-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENIDO CON SCROLLSPY -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- SIDEBAR CON NAVEGACIÓN SCROLLSPY -->
+            <div class="col-lg-3">
+                <nav id="navbar-scrollspy"
+                    class="navbar navbar-light bg-light flex-column align-items-stretch p-3 sticky-top"
+                    style="top: 100px; border-radius: 15px;">
+                    <h5 class="text-purple-dark mb-3">
+                        <i class="bi bi-list-ul me-2"></i>Contenido
+                    </h5>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#introduccion">
+                            <i class="bi bi-info-circle me-2"></i>Introducción
+                        </a>
+                        <a class="nav-link" href="#mision">
+                            <i class="bi bi-bullseye me-2"></i>Misión
+                        </a>
+                        <a class="nav-link" href="#vision">
+                            <i class="bi bi-eye me-2"></i>Visión
+                        </a>
+                        <a class="nav-link" href="#valores">
+                            <i class="bi bi-gem me-2"></i>Valores
+                        </a>
+                        <a class="nav-link" href="#equipo">
+                            <i class="bi bi-people me-2"></i>Equipo
+                        </a>
+                    </nav>
+                </nav>
+            </div>
+
+            <!-- CONTENIDO PRINCIPAL -->
+            <div class="col-lg-9">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true"
+                    class="scrollspy-example" tabindex="0">
+
+                    <!-- INTRODUCCIÓN -->
+                    <section id="introduccion" class="mb-5">
+                        <h2 class="section-title">
+                            <i class="bi bi-info-circle-fill me-2"></i>Nuestra Historia
+                        </h2>
+                        <p class="lead">Cute Pets nació en 2020 con un sueño: hacer felices a las mascotas y a sus
+                            dueños.</p>
+                        <p>Todo comenzó cuando nuestros fundadores, amantes de los animales, notaron la falta de
+                            productos de calidad y con diseño para mascotas en el mercado. Decidieron crear una tienda
+                            que combinara estilo, comodidad y funcionalidad.</p>
+
+                        <!-- VIDEO DE YOUTUBE -->
+                        <div class="ratio ratio-16x9 my-4 rounded overflow-hidden shadow">
+                            <iframe src="https://www.youtube.com/embed/OXH1YUXhGKk" title="Nuestra Historia - Cute Pets"
+                                allowfullscreen
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                            </iframe>
+                        </div>
+
+                        <!-- COLLAPSE BUTTON -->
+                        <button class="btn btn-cute-outline mt-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseHistoria">
+                            <i class="bi bi-plus-circle me-2"></i>Leer más sobre nuestra historia
+                        </button>
+
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse mt-3" id="collapseHistoria">
+                            <div class="card card-body bg-purple-light border-0">
+                                <p>Desde nuestros inicios en un pequeño local, hemos crecido hasta convertirnos en una
+                                    de las tiendas online más queridas por los dueños de mascotas en todo el país.</p>
+                                <p>Hoy en día, atendemos a miles de clientes satisfechos y seguimos comprometidos con
+                                    nuestra misión original: proporcionar los mejores productos para las mascotas más
+                                    queridas.</p>
+                                <p class="mb-0"><strong>Más de 10,000 mascotas felices</strong> han disfrutado de
+                                    nuestros productos. ¡Y seguimos creciendo!</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- MISIÓN -->
+                    <section id="mision" class="mb-5">
+                        <h2 class="section-title">
+                            <i class="bi bi-bullseye me-2"></i>Nuestra Misión
+                        </h2>
+                        <div class="card card-cute">
+                            <div class="card-body p-4">
+                                <p class="fs-5 mb-0">
+                                    <i class="bi bi-quote text-purple fs-3 me-2"></i>
+                                    Proporcionar productos de alta calidad que mejoren la vida de las mascotas y
+                                    fortalezcan el vínculo con sus dueños, ofreciendo una experiencia de compra
+                                    excepcional y un servicio al cliente incomparable.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- VISIÓN -->
+                    <section id="vision" class="mb-5">
+                        <h2 class="section-title">
+                            <i class="bi bi-eye-fill me-2"></i>Nuestra Visión
+                        </h2>
+                        <div class="card card-cute">
+                            <div class="card-body p-4">
+                                <p class="fs-5 mb-0">
+                                    <i class="bi bi-quote text-purple fs-3 me-2"></i>
+                                    Ser la tienda líder en América Latina de productos para mascotas, reconocida por
+                                    nuestra innovación, calidad y compromiso con el bienestar animal.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- VALORES -->
+                    <section id="valores" class="mb-5">
+                        <h2 class="section-title">
+                            <i class="bi bi-gem me-2"></i>Nuestros Valores
+                        </h2>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start p-3 bg-purple-light rounded">
+                                    <i class="bi bi-heart-fill text-purple fs-3 me-3"></i>
+                                    <div>
+                                        <h5 class="text-purple-dark">Amor por los Animales</h5>
+                                        <p class="mb-0 text-muted">Cada decisión la tomamos pensando en el bienestar de
+                                            las mascotas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start p-3 bg-purple-light rounded">
+                                    <i class="bi bi-shield-check text-purple fs-3 me-3"></i>
+                                    <div>
+                                        <h5 class="text-purple-dark">Calidad Garantizada</h5>
+                                        <p class="mb-0 text-muted">Solo ofrecemos productos que nosotros mismos
+                                            usaríamos con nuestras mascotas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start p-3 bg-purple-light rounded">
+                                    <i class="bi bi-lightbulb-fill text-purple fs-3 me-3"></i>
+                                    <div>
+                                        <h5 class="text-purple-dark">Innovación</h5>
+                                        <p class="mb-0 text-muted">Buscamos constantemente nuevas formas de mejorar la
+                                            vida de las mascotas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start p-3 bg-purple-light rounded">
+                                    <i class="bi bi-people-fill text-purple fs-3 me-3"></i>
+                                    <div>
+                                        <h5 class="text-purple-dark">Comunidad</h5>
+                                        <p class="mb-0 text-muted">Creamos una familia de amantes de las mascotas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- EQUIPO -->
+                    <section id="equipo" class="mb-5">
+                        <h2 class="section-title">
+                            <i class="bi bi-people-fill me-2"></i>Nuestro Equipo
+                        </h2>
+                        <p class="section-subtitle">Conoce a las personas apasionadas detrás de Cute Pets</p>
+
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card card-cute text-center">
+                                    <div class="card-body">
+                                        <div class="icon-box mx-auto mb-3">
+                                            <i class="bi bi-person-circle"></i>
+                                        </div>
+                                        <h5 class="card-title">María González</h5>
+                                        <p class="text-purple mb-2">Fundadora & CEO</p>
+                                        <p class="card-text text-muted">Veterinaria de profesión, amante de los animales
+                                            de corazón.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-cute text-center">
+                                    <div class="card-body">
+                                        <div class="icon-box mx-auto mb-3">
+                                            <i class="bi bi-person-circle"></i>
+                                        </div>
+                                        <h5 class="card-title">Carlos Ramírez</h5>
+                                        <p class="text-purple mb-2">Director de Operaciones</p>
+                                        <p class="card-text text-muted">Experto en logística y satisfacción del cliente.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-cute text-center">
+                                    <div class="card-body">
+                                        <div class="icon-box mx-auto mb-3">
+                                            <i class="bi bi-person-circle"></i>
+                                        </div>
+                                        <h5 class="card-title">Ana Flores</h5>
+                                        <p class="text-purple mb-2">Diseñadora de Productos</p>
+                                        <p class="card-text text-muted">Crea los diseños más adorables para mascotas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN DE ACCORDION -->
+    <section class="py-5 bg-purple-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Todo lo que necesitas saber sobre Cute Pets</p>
+            </div>
+
+            <div class="accordion accordion-cute" id="accordionFAQ">
+                <!-- Pregunta 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1">
+                            <i class="bi bi-question-circle-fill me-2"></i>
+                            ¿Qué hace especial a Cute Pets?
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            En Cute Pets nos diferenciamos por nuestra pasión genuina por las mascotas. Cada producto es
+                            cuidadosamente seleccionado y probado por nuestro equipo. Además, ofrecemos diseños
+                            exclusivos que no encontrarás en ningún otro lugar, combinando estilo, comodidad y
+                            funcionalidad.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2">
+                            <i class="bi bi-shield-check me-2"></i>
+                            ¿Cómo garantizan la calidad de sus productos?
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Trabajamos únicamente con proveedores certificados y realizamos controles de calidad
+                            rigurosos. Todos nuestros productos están hechos con materiales seguros, no tóxicos y
+                            duraderos. Además, ofrecemos garantía de satisfacción en todos nuestros artículos.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregunta 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse3">
+                            <i class="bi bi-truck me-2"></i>
+                            ¿Realizan envíos a todo el país?
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Sí, realizamos envíos a todo Perú. Contamos con diferentes opciones de envío para que elijas
+                            la que mejor se adapte a tus necesidades. Los envíos dentro de Lima llegan en 24-48 horas, y
+                            a provincias en 3-5 días hábiles.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregunta 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse4">
+                            <i class="bi bi-arrow-repeat me-2"></i>
+                            ¿Cuál es su política de devoluciones?
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Aceptamos devoluciones dentro de los 30 días posteriores a la compra, siempre que el
+                            producto esté en su estado original y sin usar. El proceso es simple: contáctanos, envía el
+                            producto y te reembolsamos el 100% de tu dinero. Tu satisfacción es nuestra prioridad.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregunta 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse5">
+                            <i class="bi bi-heart-fill me-2"></i>
+                            ¿Apoyan alguna causa animal?
+                        </button>
+                    </h2>
+                    <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            ¡Por supuesto! Donamos el 5% de nuestras ganancias a refugios de animales locales. Además,
+                            organizamos campañas de adopción y eventos de concientización sobre el cuidado responsable
+                            de mascotas. Creemos que todos los animales merecen amor y un hogar.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-cute">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5><i class="bi bi-heart-fill me-2"></i>Cute Pets</h5>
+                    <p>Tu tienda de confianza para ropa y accesorios de mascotas. Calidad, estilo y amor en cada
+                        producto.</p>
+                    <div class="social-links mt-3">
+                        <a href="https://facebook.com" target="_blank" title="Facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank" title="Instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5><i class="bi bi-link-45deg me-2"></i>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html"><i class="bi bi-chevron-right me-1"></i>Inicio</a></li>
+                        <li class="mb-2"><a href="nosotros.html"><i class="bi bi-chevron-right me-1"></i>Nosotros</a>
+                        </li>
+                        <li class="mb-2"><a href="tienda.html"><i class="bi bi-chevron-right me-1"></i>Tienda</a></li>
+                        <li class="mb-2"><a href="blog.html"><i class="bi bi-chevron-right me-1"></i>Blog</a></li>
+                        <li class="mb-2"><a href="noticias.html"><i class="bi bi-chevron-right me-1"></i>Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5><i class="bi bi-grid-fill me-2"></i>Categorías</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="tienda.html"><i class="bi bi-chevron-right me-1"></i>Ropa para
+                                Perros</a></li>
+                        <li class="mb-2"><a href="tienda.html"><i class="bi bi-chevron-right me-1"></i>Ropa para
+                                Gatos</a></li>
+                        <li class="mb-2"><a href="tienda.html"><i class="bi bi-chevron-right me-1"></i>Collares y
+                                Correas</a></li>
+                        <li class="mb-2"><a href="tienda.html"><i class="bi bi-chevron-right me-1"></i>Juguetes</a></li>
+                        <li class="mb-2"><a href="tienda.html"><i class="bi bi-chevron-right me-1"></i>Accesorios</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5><i class="bi bi-geo-alt-fill me-2"></i>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="bi bi-house-fill me-2"></i>
+                            Av. Mascotas 123, Lima, Perú
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            <a href="tel:+51987654321">+51 987 654 321</a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-envelope-fill me-2"></i>
+                            <a href="mailto:info@cutepets.com">info@cutepets.com</a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-clock-fill me-2"></i>
+                            Lun - Sáb: 9:00 AM - 8:00 PM
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="mb-0">
+                    &copy; 2025 Cute Pets. Todos los derechos reservados.
+                    <i class="bi bi-heart-fill text-danger"></i>
+                    Hecho con amor para las mascotas.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para inicializar componentes -->
+    <script>
+        // Inicializar tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        // Inicializar popovers
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
