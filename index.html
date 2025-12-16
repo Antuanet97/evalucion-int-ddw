@@ -398,19 +398,25 @@
         document.getElementById('newsletterForm').addEventListener('submit', function (e) {
             e.preventDefault();
 
-            var emailInput = this.querySelector('input[type="email"]');
-            var submitBtn = this.querySelector('button[type="submit"]');
+            var nameInput = document.getElementById('modalName');
+            var emailInput = document.getElementById('modalEmail');
+            var submitBtn = document.querySelector('button[form="newsletterForm"]');
             var originalText = submitBtn.innerHTML;
 
-            // Cambiar botón a estado de carga
+            // Cambiar botón a estado de éxito
             submitBtn.innerHTML = '<i class="bi bi-check-circle-fill me-2"></i>¡Suscrito!';
             submitBtn.disabled = true;
             submitBtn.classList.remove('btn-cute-primary');
             submitBtn.classList.add('btn-success');
 
-            // Resetear después de 2 segundos
+            // Resetear después de 2 segundos y cerrar modal
             setTimeout(function () {
+                // Limpiar campos
+                nameInput.value = '';
                 emailInput.value = '';
+                document.getElementById('acceptTerms').checked = false;
+
+                // Restaurar botón
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
                 submitBtn.classList.remove('btn-success');
@@ -418,7 +424,9 @@
 
                 // Cerrar modal
                 var modal = bootstrap.Modal.getInstance(document.getElementById('newsletterModal'));
-                modal.hide();
+                if (modal) {
+                    modal.hide();
+                }
             }, 2000);
         });
     </script>
